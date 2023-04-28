@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+cmake-build*
+build*
+lib
+test
+*__pycache__*
