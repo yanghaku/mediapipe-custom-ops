@@ -4,7 +4,7 @@ cc_library(
     name = "transpose_conv_bias",
     srcs = ["transpose_conv_bias.cc"],
     hdrs = ["transpose_conv_bias.h"],
-    copts = [COPTS],
+    copts = COPTS,
     visibility = ["//lib:__pkg__"],
     deps = [
         "@org_tensorflow//tensorflow/lite/kernels:kernel_util",
