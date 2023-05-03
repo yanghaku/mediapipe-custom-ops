@@ -2,6 +2,9 @@
 .vscode/
 cmake-build*
 build*
-lib
 test
 *__pycache__*
+
+/bazel-*
+/tensorflow_src
+/tflite_c_lib
